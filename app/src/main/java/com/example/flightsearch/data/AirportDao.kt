@@ -6,7 +6,6 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.TypeConverters
-import androidx.room.Upsert
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -20,6 +19,8 @@ interface AirportDao {
 
     @Query("SELECT * FROM airport WHERE id IS NOT :currentId ORDER BY passengers DESC")
     fun getAllByPassengers(currentId: Int): Flow<List<Airport>>
+
+
 }
 
 @Dao

@@ -77,8 +77,6 @@ fun HomeScreen(
             } else {
                 SearchTopBar(viewModel)
             }
-
-
         },
     ) {  paddingValue ->
             Column(Modifier.padding(paddingValue)) {
@@ -110,42 +108,43 @@ fun HomeScreen(
                         }
                     }
                 } else {
-                    Text("Отправление из: ${viewModel.flightSearchUi.currentAirport!!.iataCode}",
-                        style = MaterialTheme.typography.titleLarge,
-                        fontWeight = FontWeight.Bold,
-                        modifier = Modifier
-                            .padding(
-                                start = 16.dp,
-                                top = 8.dp,
-                                bottom = 8.dp
+                        if (!viewModel.isActive) {
+                            Text(
+                                "Отправление из:${viewModel.flightSearchUi.currentAirport!!.iataCode} ",
+                                style = MaterialTheme.typography.titleLarge,
+                                fontWeight = FontWeight.Bold,
+                                modifier = Modifier
+                                    .padding(
+                                        start = 16.dp,
+                                        top = 8.dp,
+                                        bottom = 8.dp
+                                    )
                             )
-                    )
-                    LazyColumn() {
-                        items(viewModel.flightSearchUi.destinationAirportList) { item ->
-                            CardFlight(
-                                searchItem = viewModel.flightSearchUi.currentAirport!!,
-                                findItem = item,
-                                onClick = {
-                                    viewModel.addOrRemoveFavorite(
-                                        Favorite(
-                                            destinationAirport = item,
-                                            departureAirport = viewModel.flightSearchUi.currentAirport!!
+                            LazyColumn() {
+                                items(viewModel.flightSearchUi.destinationAirportList) { item ->
+                                    CardFlight(
+                                        searchItem = viewModel.flightSearchUi.currentAirport!!,
+                                        findItem = item,
+                                        onClick = {
+                                            viewModel.addOrRemoveFavorite(
+                                                Favorite(
+                                                    destinationAirport = item,
+                                                    departureAirport = viewModel.flightSearchUi.currentAirport!!
+                                                )
+                                            )
+                                        },
+                                        boolean = viewModel.isFavorite(
+                                            viewModel.flightSearchUi.currentAirport!!.iataCode,
+                                            item.iataCode
                                         )
                                     )
-                                },
-                                boolean = viewModel.isFavorite(
-                                    viewModel.flightSearchUi.currentAirport!!.iataCode,
-                                    item.iataCode
-                                )
-                            ) }
+                                }
+                            }
                         }
                     }
-
                 }
             }
         }
-
-
 
 @Composable
 fun CardFlight(
@@ -224,7 +223,6 @@ fun CardFlight(
 fun SearchTopBar(
     viewModel: AirportViewModel
 ){
-
     Box(modifier = Modifier.fillMaxWidth(),
         contentAlignment = Alignment.TopCenter) {
         SearchBar(
@@ -233,6 +231,7 @@ fun SearchTopBar(
             onQueryChange = {
                 viewModel.updateSearch(it)
                 viewModel.getSearchListAirport(it)
+                //viewModel.saveInputPreference(it)
             },
             onSearch = {
                 viewModel.isActive = false
@@ -240,6 +239,7 @@ fun SearchTopBar(
                     viewModel.updateCurrentAirport(viewModel.flightSearchUi.suggestedAirportList[0])
                     viewModel.getAllDestinationAirports()
                 }
+                viewModel.saveInputPreference(it)
             },
             active = viewModel.isActive,
             onActiveChange = {
@@ -297,5 +297,5 @@ fun SearchTopBar(
             }
         }
     }
-    }
+}
 

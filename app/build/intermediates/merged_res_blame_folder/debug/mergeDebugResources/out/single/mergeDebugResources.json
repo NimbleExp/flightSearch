@@ -1,66 +1,66 @@
 [
     {
-        "merged": "com.example.flightsearch.app-debug-56:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.flightsearch.app-main-58:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.flightsearch.app-debug-59:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.flightsearch.app-main-61:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.flightsearch.app-debug-56:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.flightsearch.app-main-58:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.flightsearch.app-debug-59:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.flightsearch.app-main-61:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.flightsearch.app-debug-56:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.flightsearch.app-main-58:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.flightsearch.app-debug-59:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.flightsearch.app-main-61:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.flightsearch.app-debug-56:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.flightsearch.app-main-58:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.flightsearch.app-debug-59:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.flightsearch.app-main-61:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.flightsearch.app-debug-56:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.flightsearch.app-main-58:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.flightsearch.app-debug-59:/xml_backup_rules.xml.flat",
+        "source": "com.example.flightsearch.app-main-61:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.flightsearch.app-debug-56:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.flightsearch.app-main-58:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.flightsearch.app-debug-59:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.flightsearch.app-main-61:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.flightsearch.app-debug-56:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.flightsearch.app-main-58:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.flightsearch.app-debug-59:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.flightsearch.app-main-61:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.flightsearch.app-debug-56:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.flightsearch.app-main-58:/xml/data_extraction_rules.xml"
+        "merged": "com.example.flightsearch.app-debug-59:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.flightsearch.app-main-61:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.flightsearch.app-debug-56:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.flightsearch.app-main-58:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.flightsearch.app-debug-59:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.flightsearch.app-main-61:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.flightsearch.app-debug-56:/xml_backup_rules.xml.flat",
-        "source": "com.example.flightsearch.app-main-58:/xml/backup_rules.xml"
+        "merged": "com.example.flightsearch.app-debug-59:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.flightsearch.app-main-61:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.flightsearch.app-debug-56:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.flightsearch.app-main-58:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.flightsearch.app-debug-59:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.flightsearch.app-main-61:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.flightsearch.app-debug-56:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.flightsearch.app-main-58:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.flightsearch.app-debug-59:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.flightsearch.app-main-61:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.flightsearch.app-debug-56:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.flightsearch.app-main-58:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.flightsearch.app-debug-59:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.flightsearch.app-main-61:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.flightsearch.app-debug-56:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.flightsearch.app-main-58:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.flightsearch.app-debug-59:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.flightsearch.app-main-61:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.flightsearch.app-debug-56:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.flightsearch.app-main-58:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.flightsearch.app-debug-59:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.flightsearch.app-main-61:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.flightsearch.app-debug-56:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.flightsearch.app-main-58:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.flightsearch.app-debug-59:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.flightsearch.app-main-61:/xml/data_extraction_rules.xml"
     }
 ]

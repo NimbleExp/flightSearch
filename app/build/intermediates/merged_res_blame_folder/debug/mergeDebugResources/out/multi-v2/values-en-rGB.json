@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.flightsearch.app-mergeDebugResources-54:/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "com.example.flightsearch.app-mergeDebugResources-57:/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/Users/aleksejsergeev/.gradle/caches/transforms-4/998ef743e1c1ba2b1f5ca367664170d2/transformed/material3-release/res/values-en-rGB/values-en-rGB.xml",

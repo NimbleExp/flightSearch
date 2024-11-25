@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.flightsearch.app-mergeDebugResources-54:/values/values.xml",
+            "outputFile": "com.example.flightsearch.app-mergeDebugResources-57:/values/values.xml",
             "map": [
                 {
                     "source": "/Users/aleksejsergeev/.gradle/caches/transforms-4/8e893e854de82195bb2b7687798b8ccb/transformed/customview-poolingcontainer-1.0.0/res/values/values.xml",

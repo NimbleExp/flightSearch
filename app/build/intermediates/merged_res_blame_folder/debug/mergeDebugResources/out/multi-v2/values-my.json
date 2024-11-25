@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.flightsearch.app-mergeDebugResources-54:/values-my/values-my.xml",
+            "outputFile": "com.example.flightsearch.app-mergeDebugResources-57:/values-my/values-my.xml",
             "map": [
                 {
                     "source": "/Users/aleksejsergeev/.gradle/caches/transforms-4/67f115b9be18025ffbc66a0a1dba6106/transformed/foundation-release/res/values-my/values-my.xml",

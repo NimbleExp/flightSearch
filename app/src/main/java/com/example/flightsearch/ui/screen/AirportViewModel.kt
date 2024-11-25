@@ -14,17 +14,19 @@ import com.example.flightsearch.data.Airport
 import com.example.flightsearch.data.AirportDao
 import com.example.flightsearch.data.Favorite
 import com.example.flightsearch.data.FavoriteDao
+import com.example.flightsearch.data.UserPreferencesRepository
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 class AirportViewModel(
+    private val userPreferencesRepository: UserPreferencesRepository,
     private val airportDao: AirportDao,
     private val favoriteDao: FavoriteDao
 ): ViewModel() {
 
     var isActive by  mutableStateOf(false)
-
     var flightSearchUi by mutableStateOf(FlightSearchUi())
         private set
 
@@ -33,6 +35,14 @@ class AirportViewModel(
 
     var userInput by mutableStateOf("")
         private set
+
+    init {
+        runBlocking {
+            userInput = userPreferencesRepository.inputString.first()
+        }
+        isActive = true
+        getSearchListAirport(userInput)
+    }
 
     fun updateSearch(input: String){
         userInput = input
@@ -44,6 +54,9 @@ class AirportViewModel(
         )
     }
 
+    /**
+     * Get all Airports search to code or name
+     */
     fun getSearchListAirport(input: String){
         viewModelScope.launch {
             flightSearchUi = flightSearchUi.copy(
@@ -72,7 +85,6 @@ class AirportViewModel(
         }
     }
 
-
     private fun removeFavorite(favorite: Favorite) {
         viewModelScope.launch {
             favoriteDao.removeFavorite(favorite)
@@ -87,6 +99,9 @@ class AirportViewModel(
         }
     }
 
+    /**
+    *Get all airports without current
+    */
     fun getAllDestinationAirports(){
         viewModelScope.launch {
             if(flightSearchUi.currentAirport != null){
@@ -108,19 +123,20 @@ class AirportViewModel(
         return false
     }
 
-
-
+    fun saveInputPreference(input: String){
+        viewModelScope.launch {
+            userPreferencesRepository.saveInputPreference(input)
+        }
+    }
 
     companion object {
         val factory: ViewModelProvider.Factory = viewModelFactory {
             initializer {
                 val application = (this[APPLICATION_KEY] as AirportApplication)
-                AirportViewModel(application.database.airportDao(), application.database.favoriteDao())
+                AirportViewModel(application.userPreferencesRepository,application.database.airportDao(), application.database.favoriteDao())
             }
         }
     }
-
-
 }
 
 data class FlightSearchUi(

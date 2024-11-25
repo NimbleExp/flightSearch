@@ -1,4 +1,4 @@
-#Tue Oct 29 19:11:52 MSK 2024
+#Mon Nov 25 13:29:05 MSK 2024
 base.0=/Users/aleksejsergeev/AndroidStudioProjects/FlightSearch/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/aleksejsergeev/AndroidStudioProjects/FlightSearch/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/Users/aleksejsergeev/AndroidStudioProjects/FlightSearch/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex

@@ -51,6 +51,9 @@ MERGED from [androidx.room:room-runtime:2.6.1] /Users/aleksejsergeev/.gradle/cac
 MERGED from [androidx.room:room-ktx:2.6.1] /Users/aleksejsergeev/.gradle/caches/transforms-4/7c3c7cd8d533d6fb154702d2d050e03e/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/aleksejsergeev/.gradle/caches/transforms-4/1f8c3d097efd9e1a6d6cbd2bd1f39991/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/aleksejsergeev/.gradle/caches/transforms-4/a07721d8864e523d3663a58f778048d1/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/aleksejsergeev/.gradle/caches/transforms-4/b6cc22c24d89c78b5b7795fecd03ca19/transformed/datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/aleksejsergeev/.gradle/caches/transforms-4/ee0ec970b2797b0a30799bfad5c2c603/transformed/datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/aleksejsergeev/.gradle/caches/transforms-4/8a9c2b8dd3df7de3aef6920329ef31f3/transformed/datastore-preferences-release/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /Users/aleksejsergeev/.gradle/caches/transforms-4/305d83d5bacae08cd54f89deedf5986e/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /Users/aleksejsergeev/.gradle/caches/transforms-4/27e1431bcb7ba2fc729f42330bd3641e/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/aleksejsergeev/.gradle/caches/transforms-4/bbd3f771ecc3288630ff886d208115c5/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
@@ -233,6 +236,12 @@ MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/aleksejsergeev/.grad
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/aleksejsergeev/.gradle/caches/transforms-4/1f8c3d097efd9e1a6d6cbd2bd1f39991/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/aleksejsergeev/.gradle/caches/transforms-4/a07721d8864e523d3663a58f778048d1/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/aleksejsergeev/.gradle/caches/transforms-4/a07721d8864e523d3663a58f778048d1/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/aleksejsergeev/.gradle/caches/transforms-4/b6cc22c24d89c78b5b7795fecd03ca19/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/aleksejsergeev/.gradle/caches/transforms-4/b6cc22c24d89c78b5b7795fecd03ca19/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/aleksejsergeev/.gradle/caches/transforms-4/ee0ec970b2797b0a30799bfad5c2c603/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/aleksejsergeev/.gradle/caches/transforms-4/ee0ec970b2797b0a30799bfad5c2c603/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/aleksejsergeev/.gradle/caches/transforms-4/8a9c2b8dd3df7de3aef6920329ef31f3/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/aleksejsergeev/.gradle/caches/transforms-4/8a9c2b8dd3df7de3aef6920329ef31f3/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /Users/aleksejsergeev/.gradle/caches/transforms-4/305d83d5bacae08cd54f89deedf5986e/transformed/runtime-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /Users/aleksejsergeev/.gradle/caches/transforms-4/305d83d5bacae08cd54f89deedf5986e/transformed/runtime-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /Users/aleksejsergeev/.gradle/caches/transforms-4/27e1431bcb7ba2fc729f42330bd3641e/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
